@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(224, 253, 243);
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 300%;
+}
+h1{
+    background-color: rgb(154, 252, 255);
+    color: rgba(14, 7, 7, 0.937);
+    font-size: 200%;
+    text-align: center;
+    font-style: inherit;
+    padding: 50px;
+}
+h4{
+    background-color: honeydew;
+    color: rgba(53, 49, 49, 0.937);
+    font-size: 100%;
+    text-align: center;
+    font-style: oblique;
+    padding: 20px;
+}

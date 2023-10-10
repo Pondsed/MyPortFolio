@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 197, 250);
+}
+legend{
+    font-size: 40px;
+}
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  select[type="color"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  button{
+    font-size: medium;
+    background-color: #ef3535; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    cursor: pointer; 
+  }
+  button:hover{
+    font-size: medium;
+    background-color: #efbd35; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    cursor: pointer; 
+  }
